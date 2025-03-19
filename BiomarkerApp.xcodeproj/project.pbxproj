@@ -1,0 +1,986 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D70CE7FE2D82639000A2964D /* Biomarker Watch App Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D70CE7DB2D82638E00A2964D /* Biomarker Watch App Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D70783FE2D67D6D7009C0D32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D70783E02D67D6D4009C0D32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D70783E72D67D6D4009C0D32;
+			remoteInfo = BiomarkerApp;
+		};
+		D70784082D67D6D7009C0D32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D70783E02D67D6D4009C0D32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D70783E72D67D6D4009C0D32;
+			remoteInfo = BiomarkerApp;
+		};
+		D70CE7EB2D82639000A2964D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D70783E02D67D6D4009C0D32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D70CE7DA2D82638E00A2964D;
+			remoteInfo = "Biomarker Watch App Watch App";
+		};
+		D70CE7F52D82639000A2964D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D70783E02D67D6D4009C0D32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D70CE7DA2D82638E00A2964D;
+			remoteInfo = "Biomarker Watch App Watch App";
+		};
+		D70CE7FC2D82639000A2964D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D70783E02D67D6D4009C0D32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D70CE7DA2D82638E00A2964D;
+			remoteInfo = "Biomarker Watch App Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D70CE7FF2D82639000A2964D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D70CE7FE2D82639000A2964D /* Biomarker Watch App Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D70783E82D67D6D4009C0D32 /* BiomarkerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiomarkerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70783FD2D67D6D7009C0D32 /* BiomarkerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiomarkerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70784072D67D6D7009C0D32 /* BiomarkerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiomarkerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70CE7DB2D82638E00A2964D /* Biomarker Watch App Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Biomarker Watch App Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70CE7EA2D82639000A2964D /* Biomarker Watch App Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Biomarker Watch App Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70CE7F42D82639000A2964D /* Biomarker Watch App Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Biomarker Watch App Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D70784262D67DA37009C0D32 /* Exceptions for "BiomarkerApp" folder in "BiomarkerApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D70783E72D67D6D4009C0D32 /* BiomarkerApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D70783EA2D67D6D4009C0D32 /* BiomarkerApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D70784262D67DA37009C0D32 /* Exceptions for "BiomarkerApp" folder in "BiomarkerApp" target */,
+			);
+			path = BiomarkerApp;
+			sourceTree = "<group>";
+		};
+		D70784002D67D6D7009C0D32 /* BiomarkerAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BiomarkerAppTests;
+			sourceTree = "<group>";
+		};
+		D707840A2D67D6D7009C0D32 /* BiomarkerAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BiomarkerAppUITests;
+			sourceTree = "<group>";
+		};
+		D70CE7DC2D82638E00A2964D /* Biomarker Watch App Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Biomarker Watch App Watch App";
+			sourceTree = "<group>";
+		};
+		D70CE7ED2D82639000A2964D /* Biomarker Watch App Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Biomarker Watch App Watch AppTests";
+			sourceTree = "<group>";
+		};
+		D70CE7F72D82639000A2964D /* Biomarker Watch App Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Biomarker Watch App Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D70783E52D67D6D4009C0D32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70783FA2D67D6D7009C0D32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70784042D67D6D7009C0D32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70CE7D82D82638E00A2964D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70CE7E72D82639000A2964D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70CE7F12D82639000A2964D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D70783DF2D67D6D4009C0D32 = {
+			isa = PBXGroup;
+			children = (
+				D70783EA2D67D6D4009C0D32 /* BiomarkerApp */,
+				D70784002D67D6D7009C0D32 /* BiomarkerAppTests */,
+				D707840A2D67D6D7009C0D32 /* BiomarkerAppUITests */,
+				D70CE7DC2D82638E00A2964D /* Biomarker Watch App Watch App */,
+				D70CE7ED2D82639000A2964D /* Biomarker Watch App Watch AppTests */,
+				D70CE7F72D82639000A2964D /* Biomarker Watch App Watch AppUITests */,
+				D70783E92D67D6D4009C0D32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D70783E92D67D6D4009C0D32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D70783E82D67D6D4009C0D32 /* BiomarkerApp.app */,
+				D70783FD2D67D6D7009C0D32 /* BiomarkerAppTests.xctest */,
+				D70784072D67D6D7009C0D32 /* BiomarkerAppUITests.xctest */,
+				D70CE7DB2D82638E00A2964D /* Biomarker Watch App Watch App.app */,
+				D70CE7EA2D82639000A2964D /* Biomarker Watch App Watch AppTests.xctest */,
+				D70CE7F42D82639000A2964D /* Biomarker Watch App Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D70783E72D67D6D4009C0D32 /* BiomarkerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D70784112D67D6D7009C0D32 /* Build configuration list for PBXNativeTarget "BiomarkerApp" */;
+			buildPhases = (
+				D70783E42D67D6D4009C0D32 /* Sources */,
+				D70783E52D67D6D4009C0D32 /* Frameworks */,
+				D70783E62D67D6D4009C0D32 /* Resources */,
+				D70CE7FF2D82639000A2964D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D70CE7FD2D82639000A2964D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D70783EA2D67D6D4009C0D32 /* BiomarkerApp */,
+			);
+			name = BiomarkerApp;
+			packageProductDependencies = (
+			);
+			productName = BiomarkerApp;
+			productReference = D70783E82D67D6D4009C0D32 /* BiomarkerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D70783FC2D67D6D7009C0D32 /* BiomarkerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D70784142D67D6D7009C0D32 /* Build configuration list for PBXNativeTarget "BiomarkerAppTests" */;
+			buildPhases = (
+				D70783F92D67D6D7009C0D32 /* Sources */,
+				D70783FA2D67D6D7009C0D32 /* Frameworks */,
+				D70783FB2D67D6D7009C0D32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D70783FF2D67D6D7009C0D32 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D70784002D67D6D7009C0D32 /* BiomarkerAppTests */,
+			);
+			name = BiomarkerAppTests;
+			packageProductDependencies = (
+			);
+			productName = BiomarkerAppTests;
+			productReference = D70783FD2D67D6D7009C0D32 /* BiomarkerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D70784062D67D6D7009C0D32 /* BiomarkerAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D70784172D67D6D7009C0D32 /* Build configuration list for PBXNativeTarget "BiomarkerAppUITests" */;
+			buildPhases = (
+				D70784032D67D6D7009C0D32 /* Sources */,
+				D70784042D67D6D7009C0D32 /* Frameworks */,
+				D70784052D67D6D7009C0D32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D70784092D67D6D7009C0D32 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D707840A2D67D6D7009C0D32 /* BiomarkerAppUITests */,
+			);
+			name = BiomarkerAppUITests;
+			packageProductDependencies = (
+			);
+			productName = BiomarkerAppUITests;
+			productReference = D70784072D67D6D7009C0D32 /* BiomarkerAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D70CE7DA2D82638E00A2964D /* Biomarker Watch App Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D70CE8062D82639000A2964D /* Build configuration list for PBXNativeTarget "Biomarker Watch App Watch App" */;
+			buildPhases = (
+				D70CE7D72D82638E00A2964D /* Sources */,
+				D70CE7D82D82638E00A2964D /* Frameworks */,
+				D70CE7D92D82638E00A2964D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D70CE7DC2D82638E00A2964D /* Biomarker Watch App Watch App */,
+			);
+			name = "Biomarker Watch App Watch App";
+			packageProductDependencies = (
+			);
+			productName = "Biomarker Watch App Watch App";
+			productReference = D70CE7DB2D82638E00A2964D /* Biomarker Watch App Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D70CE7E92D82639000A2964D /* Biomarker Watch App Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D70CE8072D82639000A2964D /* Build configuration list for PBXNativeTarget "Biomarker Watch App Watch AppTests" */;
+			buildPhases = (
+				D70CE7E62D82639000A2964D /* Sources */,
+				D70CE7E72D82639000A2964D /* Frameworks */,
+				D70CE7E82D82639000A2964D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D70CE7EC2D82639000A2964D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D70CE7ED2D82639000A2964D /* Biomarker Watch App Watch AppTests */,
+			);
+			name = "Biomarker Watch App Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Biomarker Watch App Watch AppTests";
+			productReference = D70CE7EA2D82639000A2964D /* Biomarker Watch App Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D70CE7F32D82639000A2964D /* Biomarker Watch App Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D70CE8082D82639000A2964D /* Build configuration list for PBXNativeTarget "Biomarker Watch App Watch AppUITests" */;
+			buildPhases = (
+				D70CE7F02D82639000A2964D /* Sources */,
+				D70CE7F12D82639000A2964D /* Frameworks */,
+				D70CE7F22D82639000A2964D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D70CE7F62D82639000A2964D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D70CE7F72D82639000A2964D /* Biomarker Watch App Watch AppUITests */,
+			);
+			name = "Biomarker Watch App Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Biomarker Watch App Watch AppUITests";
+			productReference = D70CE7F42D82639000A2964D /* Biomarker Watch App Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D70783E02D67D6D4009C0D32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					D70783E72D67D6D4009C0D32 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					D70783FC2D67D6D7009C0D32 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D70783E72D67D6D4009C0D32;
+					};
+					D70784062D67D6D7009C0D32 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D70783E72D67D6D4009C0D32;
+					};
+					D70CE7DA2D82638E00A2964D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					D70CE7E92D82639000A2964D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D70CE7DA2D82638E00A2964D;
+					};
+					D70CE7F32D82639000A2964D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D70CE7DA2D82638E00A2964D;
+					};
+				};
+			};
+			buildConfigurationList = D70783E32D67D6D4009C0D32 /* Build configuration list for PBXProject "BiomarkerApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D70783DF2D67D6D4009C0D32;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D70783E92D67D6D4009C0D32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D70783E72D67D6D4009C0D32 /* BiomarkerApp */,
+				D70783FC2D67D6D7009C0D32 /* BiomarkerAppTests */,
+				D70784062D67D6D7009C0D32 /* BiomarkerAppUITests */,
+				D70CE7DA2D82638E00A2964D /* Biomarker Watch App Watch App */,
+				D70CE7E92D82639000A2964D /* Biomarker Watch App Watch AppTests */,
+				D70CE7F32D82639000A2964D /* Biomarker Watch App Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D70783E62D67D6D4009C0D32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70783FB2D67D6D7009C0D32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70784052D67D6D7009C0D32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70CE7D92D82638E00A2964D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70CE7E82D82639000A2964D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70CE7F22D82639000A2964D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D70783E42D67D6D4009C0D32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70783F92D67D6D7009C0D32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70784032D67D6D7009C0D32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70CE7D72D82638E00A2964D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70CE7E62D82639000A2964D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70CE7F02D82639000A2964D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D70783FF2D67D6D7009C0D32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D70783E72D67D6D4009C0D32 /* BiomarkerApp */;
+			targetProxy = D70783FE2D67D6D7009C0D32 /* PBXContainerItemProxy */;
+		};
+		D70784092D67D6D7009C0D32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D70783E72D67D6D4009C0D32 /* BiomarkerApp */;
+			targetProxy = D70784082D67D6D7009C0D32 /* PBXContainerItemProxy */;
+		};
+		D70CE7EC2D82639000A2964D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D70CE7DA2D82638E00A2964D /* Biomarker Watch App Watch App */;
+			targetProxy = D70CE7EB2D82639000A2964D /* PBXContainerItemProxy */;
+		};
+		D70CE7F62D82639000A2964D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D70CE7DA2D82638E00A2964D /* Biomarker Watch App Watch App */;
+			targetProxy = D70CE7F52D82639000A2964D /* PBXContainerItemProxy */;
+		};
+		D70CE7FD2D82639000A2964D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D70CE7DA2D82638E00A2964D /* Biomarker Watch App Watch App */;
+			targetProxy = D70CE7FC2D82639000A2964D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D707840F2D67D6D7009C0D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D70784102D67D6D7009C0D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D70784122D67D6D7009C0D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BiomarkerApp/BiomarkerApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BiomarkerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = Q8N3UZ5C4Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BiomarkerApp/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "App 需要访问您的健康数据以获取实时心率。";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "App 需要访问您的健康数据以监测心率。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CT.BiomarkerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D70784132D67D6D7009C0D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BiomarkerApp/BiomarkerApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BiomarkerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = Q8N3UZ5C4Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BiomarkerApp/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "App 需要访问您的健康数据以获取实时心率。";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "App 需要访问您的健康数据以监测心率。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CT.BiomarkerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D70784152D67D6D7009C0D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q8N3UZ5C4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CT.BiomarkerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BiomarkerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BiomarkerApp";
+			};
+			name = Debug;
+		};
+		D70784162D67D6D7009C0D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q8N3UZ5C4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CT.BiomarkerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BiomarkerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BiomarkerApp";
+			};
+			name = Release;
+		};
+		D70784182D67D6D7009C0D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q8N3UZ5C4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CT.BiomarkerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BiomarkerApp;
+			};
+			name = Debug;
+		};
+		D70784192D67D6D7009C0D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q8N3UZ5C4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CT.BiomarkerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BiomarkerApp;
+			};
+			name = Release;
+		};
+		D70CE8002D82639000A2964D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Biomarker Watch App Watch App/Biomarker Watch App Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Biomarker Watch App Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = Q8N3UZ5C4Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Biomarker-Watch-App-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Biomarker Watch App";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "This app needs access to Health data to track real-time heart rate.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs access to Health data to track real-time heart rate.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app records and monitors heart rate for improved insights.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = CT.BiomarkerApp;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CT.BiomarkerApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		D70CE8012D82639000A2964D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Biomarker Watch App Watch App/Biomarker Watch App Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Biomarker Watch App Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = Q8N3UZ5C4Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Biomarker-Watch-App-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Biomarker Watch App";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "This app needs access to Health data to track real-time heart rate.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs access to Health data to track real-time heart rate.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app records and monitors heart rate for improved insights.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = CT.BiomarkerApp;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CT.BiomarkerApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		D70CE8022D82639000A2964D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q8N3UZ5C4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CT.Biomarker-Watch-App-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Biomarker Watch App Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Biomarker Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		D70CE8032D82639000A2964D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q8N3UZ5C4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CT.Biomarker-Watch-App-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Biomarker Watch App Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Biomarker Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		D70CE8042D82639000A2964D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q8N3UZ5C4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CT.Biomarker-Watch-App-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Biomarker Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		D70CE8052D82639000A2964D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q8N3UZ5C4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CT.Biomarker-Watch-App-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Biomarker Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D70783E32D67D6D4009C0D32 /* Build configuration list for PBXProject "BiomarkerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D707840F2D67D6D7009C0D32 /* Debug */,
+				D70784102D67D6D7009C0D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D70784112D67D6D7009C0D32 /* Build configuration list for PBXNativeTarget "BiomarkerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D70784122D67D6D7009C0D32 /* Debug */,
+				D70784132D67D6D7009C0D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D70784142D67D6D7009C0D32 /* Build configuration list for PBXNativeTarget "BiomarkerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D70784152D67D6D7009C0D32 /* Debug */,
+				D70784162D67D6D7009C0D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D70784172D67D6D7009C0D32 /* Build configuration list for PBXNativeTarget "BiomarkerAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D70784182D67D6D7009C0D32 /* Debug */,
+				D70784192D67D6D7009C0D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D70CE8062D82639000A2964D /* Build configuration list for PBXNativeTarget "Biomarker Watch App Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D70CE8002D82639000A2964D /* Debug */,
+				D70CE8012D82639000A2964D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D70CE8072D82639000A2964D /* Build configuration list for PBXNativeTarget "Biomarker Watch App Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D70CE8022D82639000A2964D /* Debug */,
+				D70CE8032D82639000A2964D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D70CE8082D82639000A2964D /* Build configuration list for PBXNativeTarget "Biomarker Watch App Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D70CE8042D82639000A2964D /* Debug */,
+				D70CE8052D82639000A2964D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D70783E02D67D6D4009C0D32 /* Project object */;
+}
